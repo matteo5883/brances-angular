@@ -1,0 +1,7 @@
+<div class="col-12 textCenter">
+  <label class="textRight"> FILTER : <input placeholder="filter" (keyup)="onKey($event)"/></label>
+  <button (click)="onClick()" class="btn textLeft">SEARCH</button>
+</div>
+<app-branch [branches]="branches"
+            [head]="head"
+></app-branch>
